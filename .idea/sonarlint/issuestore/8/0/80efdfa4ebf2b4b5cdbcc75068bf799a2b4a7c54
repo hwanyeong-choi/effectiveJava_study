@@ -1,0 +1,18 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÄ´Ÿ8‚´®±ç1J$0b35eee2-f52a-41e6-ab71-75b29209eacf
+‚
+java:S1854"?Remove this useless assignment to local variable "urgentOrder".(É˜’·8‘´®±ç1J$dd6a2c96-1d37-4842-a5ed-c451669b175d
+€
+java:S1854">Remove this useless assignment to local variable "primeOrder".(Î‘Ü{8‘´®±ç1J$1aeef35b-90d6-45f0-8397-4fb08655e43c
+q
+java:S1481"/Remove this unused "primeOrder" local variable.(Î‘Ü{8˜´®±ç1J$0a79693e-9495-4817-8f79-b5654067e394
+s
+java:S1481"0Remove this unused "urgentOrder" local variable.(É˜’·8š´®±ç1J$d1f08dff-ea13-401f-815a-2665a95133a0
+„
+java:S2094("BRemove this empty class, write its code or make it an "interface".(¡÷(8‘°±ç1J$cb6e72dd-2f28-4f15-8b07-4a6aa220575e
+q
+java:S1068")Remove this unused "prime" private field.(¹õ…¹ıÿÿÿÿ8¤´®±ç1J$b7340ed6-73ad-4f64-bb7b-5014ac033245
+m
+java:S1068"*Remove this unused "urgent" private field.(š•œè8¥´®±ç1J$714ef3e8-43a1-47fa-8783-9b537e83c7fc
+s
+java:S1068"+Remove this unused "product" private field.(„¼”Úùÿÿÿÿ8¥´®±ç1J$6fe889af-2490-48bc-b17f-cd1a29aaf123
