@@ -75,7 +75,7 @@
   
   >> 질문1) 내림차순으로 정렬하는 Comparator를 만들고 List<Integer>를 정렬하다
   > ``` java
-  >> public class Assignment {
+  > public class Assignment {
   >     public static void main(String[] args) {
   >         List<Integer> numberList = Arrays.asList(1, 2, 3, 4 ,5 ,6 ,7 ,8 ,9, 10);
   >         Comparator<Integer> desc = (o1, o2) -> o2 - o1;
