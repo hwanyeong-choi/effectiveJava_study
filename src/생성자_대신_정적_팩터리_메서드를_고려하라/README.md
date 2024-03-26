@@ -2,14 +2,14 @@
 ## 핵심정리
 
 - 장점
-  - 이름을 가질 수 있다. (동일한 시그니처의 생성자를 두개 가질 수 없다)
-  - 호출될 때마다 인스턴스를 새로 생성하지 않아도 된다. (Boolean.valueOf)
-  - 반환 타입의 하위 타입 객체를 반환할 수 있는 능력이 있다. (인터페이스 기반 프레임워크, 인터페이스에 정적 메소드)
-  - 입력 매개변수에 따라 매번 다른 클래스의 객체를 반환할 수 있다. (EnumSet)
-  - 정적 팩터리 메서드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다. (서비스 제공자 프레임워크)
+  - [1. 이름을 가질 수 있다. (동일한 시그니처의 생성자를 두개 가질 수 없다)](https://github.com/hwanyeongchoi/effectiveJava_study/blob/main/src/%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80%EC%8B%A0_%EC%A0%95%EC%A0%81_%ED%8C%A9%ED%84%B0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC/item01/Order.java)(
+  - [2. 호출될 때마다 인스턴스를 새로 생성하지 않아도 된다. (Boolean.valueOf)](https://github.com/hwanyeongchoi/effectiveJava_study/blob/main/src/%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80%EC%8B%A0_%EC%A0%95%EC%A0%81_%ED%8C%A9%ED%84%B0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC/item01/Settings.java)
+  - [3. 반환 타입의 하위 타입 객체를 반환할 수 있는 능력이 있다. (인터페이스 기반 프레임워크, 인터페이스에 정적 메소드)](https://github.com/hwanyeongchoi/effectiveJava_study/blob/main/src/%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80%EC%8B%A0_%EC%A0%95%EC%A0%81_%ED%8C%A9%ED%84%B0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC/item01/HelloServiceFactory.java)
+  - [4. 입력 매개변수에 따라 매번 다른 클래스의 객체를 반환할 수 있다. (EnumSet)](https://github.com/hwanyeongchoi/effectiveJava_study/blob/main/src/%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80%EC%8B%A0_%EC%A0%95%EC%A0%81_%ED%8C%A9%ED%84%B0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC/item01/HelloServiceFactory.java)
+  - [5. 정적 팩터리 메서드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다. (서비스 제공자 프레임워크)](https://github.com/hwanyeongchoi/effectiveJava_study/blob/main/src/%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80%EC%8B%A0_%EC%A0%95%EC%A0%81_%ED%8C%A9%ED%84%B0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC/item01/HelloServiceFactory.java)
 - 단점
   - [상속을 하려면 public이나 protected 생성자가 필요하니 정적 팩터리 메서드만 제공하기 어렵다](https://github.com/hwanyeongchoi/effectiveJava_study/blob/main/src/%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80%EC%8B%A0_%EC%A0%95%EC%A0%81_%ED%8C%A9%ED%84%B0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC/item01/AdvancedSettings.java)
-  - 정적 팩터리 메서드는 프로그래머가 찾기 어렵다.
+  - [정적 팩터리 메서드는 프로그래머가 찾기 어렵다.](https://github.com/hwanyeongchoi/effectiveJava_study/blob/main/src/%EC%83%9D%EC%84%B1%EC%9E%90_%EB%8C%80%EC%8B%A0_%EC%A0%95%EC%A0%81_%ED%8C%A9%ED%84%B0%EB%A6%AC_%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC_%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC/item01/Settings.java)
 
 
 ## 완벽 공략
