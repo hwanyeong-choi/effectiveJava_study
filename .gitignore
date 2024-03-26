@@ -1,8 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-/effective_java.iml
+effective_java.iml
+.idea
 
 ### Eclipse ###
 .apt_generated
