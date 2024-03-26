@@ -23,14 +23,14 @@
 
   >질문2) enum은 자바의 클래스처럼 생성자, 메소드, 필드를 가질 수 있는가?
   > ```java
-  >> public enum OrderStatus {
-  >>  PREPARING(1), SHIPPED(2), DELIVERING(3), DELIVERY(4);
-  >>  private int number;
-  >> 
-  >>  OrderStatus(int number) {
-  >>      this.number = number;
-  >>  }
-  >> }
+  > public enum OrderStatus {
+  >  PREPARING(1), SHIPPED(2), DELIVERING(3), DELIVERY(4);
+  >  private int number;
+  > 
+  >  OrderStatus(int number) {
+  >      this.number = number;
+  >  }
+  > }
   
   >질문3) enum의 값은 == 연산자로 동일성을 비교할 수 있는가?
   >> - OrderStatus.DELIVERING == OrderStatus.DELIVERY
@@ -50,18 +50,18 @@
 
   > p10, 자바 8부터는 인터페이스가 정적 메서드를 가질 수 없다는 제한이 풀렸기 때문에 인스턴스화 불가 동반 클래스를 둘 이유가 별로 없다.
   > ``` java
-  >>  public interface HelloService {
-  >> 
-  >>    String hello();
-  >>    
-  >>    static String hi() {
-  >>         return "hi";
-  >>    }
-  >>
-  >>    static String by() {
-  >>         return "bye";
-  >>     }
-  >>  }
+  >  public interface HelloService {
+  > 
+  >    String hello();
+  >    
+  >    static String hi() {
+  >         return "hi";
+  >    }
+  >
+  >    static String by() {
+  >         return "bye";
+  >     }
+  >  }
 
   > p11, 서비스 제공자 프레임워크를 만드는 근간이 된다. 자바 8과 9에서 주요 인터페이스의 변화
   >> 자바 8과 9에서 주요 인터페이스의 변화
